@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" integrity="sha256-VeNaFBVDhoX3H+gJ37DpT/nTuZTdjYro9yBruHjVmoQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <a class="navbar-brand">FiveDiceGa.me</a>
+                </div>
+                <div class="col-3 align-self-start">
+                    <button id="ResetGameButton" class="btn btn-outline-danger my-4 my-sm-0" type="submit">Reset Game</button>
+                    <button id="NewGameButton" class="btn btn-outline-warning my-4 my-sm-0" type="submit">New Game</button>
+                </div>
+                <div class="AddPlayerContainer col align-self-end">
+                    <input id="AddPlayerInput" class="form-control" type="search" placeholder="Player Name" aria-label="Player Name">
+                    <button id="AddPlayerButton" class="btn btn-outline-success">Add Player</button>
+                    <button id="RemovePlayerButton" class="btn btn-outline-warning">Remove Last Player</button>
+                </div>
+            </div>
+          </nav>
+
+          <table class="table table-striped">
+            <thead class="thead-dark" id="PlayerNamesRow"></thead>
+            <tbody id="PlayerPointsBody"></tbody>
+          </table>
+    </body>
+</html>

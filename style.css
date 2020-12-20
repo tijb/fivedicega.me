@@ -1,0 +1,16 @@
+.navbar .row {
+    width: 100%;
+}
+.AddPlayerContainer {
+    display: inherit;
+}
+.AddPlayerContainer input {
+    width: 50%;
+}
+.AddPlayerContainer button {
+    margin-left: 5px;
+}
+#EditPointsInput {
+    height: inherit;
+    width: inherit;
+}
