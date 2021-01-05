@@ -18,4 +18,4 @@ jobs:
         with:
           build_dir: /home/runner/work/five-dice/five-dice
         env:
-          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+          GH_PAT: ${{ secrets.PA_TOKEN }}
