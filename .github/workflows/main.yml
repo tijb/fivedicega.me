@@ -17,3 +17,5 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
           build_dir: /home/runner/work/five-dice/five-dice
+        env:
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
