@@ -16,6 +16,6 @@ jobs:
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
-          build_dir: /home/runner/work/five-dice/five-dice
+          build_dir: .
         env:
           GH_PAT: ${{ secrets.PA_TOKEN }}
